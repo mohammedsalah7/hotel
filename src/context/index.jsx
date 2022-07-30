@@ -181,18 +181,6 @@ const HotelProvider = ({ children }) => {
 
   };
 
-
-
-  // const filterItems = results
-  //   .filter(dataFilter => city === dataFilter.name)
-  //   .filter(dataFilter => dataFilter.date === date)
-
-
-
-
-
-
-
   const handleBookineHotel = (hotelId) => {
     const myBooking = results.filter((hotel) => hotel.id === hotelId)
     setMyBooking([myBooking, ...Booking])
